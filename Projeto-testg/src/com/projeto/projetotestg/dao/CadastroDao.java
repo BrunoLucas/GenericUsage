@@ -6,7 +6,8 @@ public class CadastroDao<T> implements CRUD<T>{
 	public void salvar(T objeto) {
 		System.out.println(objeto.toString());
 		System.out.println("Incluído com sucesso");
-	}
+	} 
+
 
 	@Override
 	public T obter(Long codigo) {
