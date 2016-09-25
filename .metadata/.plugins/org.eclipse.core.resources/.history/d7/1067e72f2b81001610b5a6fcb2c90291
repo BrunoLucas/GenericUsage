@@ -1,0 +1,55 @@
+package com.projeto.hugo.dto;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import com.projeto.hugo.facade.IExibicao;
+
+public class Colecionador implements Serializable, IExibicao{
+	
+	private LocalDate dataInicio;
+	private Pokemon pokemonPreferido;
+	private Tipo tipoPreferido;
+	
+	public LocalDate getDataInicio() {
+		return dataInicio;
+	}
+	public void setDataInicio(LocalDate dataInicio) {
+		this.dataInicio = dataInicio;
+	}
+	public Pokemon getPokemonPreferido() {
+		return pokemonPreferido;
+	}
+	public void setPokemonPreferido(Pokemon pokemonPreferido) {
+		this.pokemonPreferido = pokemonPreferido;
+	}
+	public Tipo getTipoPreferido() {
+		return tipoPreferido;
+	}
+	public void setTipoPreferido(Tipo tipoPreferido) {
+		this.tipoPreferido = tipoPreferido;
+	}
+	@Override
+	public void apresentar(String mensagem) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public Long obterNivel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Long obterExperiencia() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Localizacao obterLocalizacao() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}

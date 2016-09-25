@@ -1,0 +1,10 @@
+package com.projeto.hugo.facade;
+
+public interface IExibicao {
+
+	public void apresentar(String mensagem);
+	public Long obterPontuacao();
+	public Long obterExperiencia();
+	public Localizacao obterLocalizacao();
+	
+}

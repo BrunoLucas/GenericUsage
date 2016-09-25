@@ -1,0 +1,58 @@
+package com.projeto.hugo.dto;
+
+import com.projeto.hugo.facade.IExibicao;
+
+public class Pokemon implements IExibicao {
+
+	private Long codigo;
+	private String nome;
+	private Tipo tipo;
+	private Long nivel;
+	private Long CP;
+	private Localizacao localizacao;
+
+	public Long getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Long codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Tipo getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(Tipo tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public void apresentar(String mensagem) {
+		System.out.println(mensagem);
+	}
+
+	@Override
+	public Long obterNivel() {
+		return this.nivel;
+	}
+
+	@Override
+	public Long obterExperiencia() {
+		return this.CP;
+	}
+
+	@Override
+	public Localizacao obterLocalizacao() {
+		return this.localizacao;
+	}
+
+}

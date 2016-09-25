@@ -1,0 +1,8 @@
+package com.projeto.hugo.facade;
+
+
+public interface IExibicao {
+
+	public void apresentar(String mensagem);
+
+}

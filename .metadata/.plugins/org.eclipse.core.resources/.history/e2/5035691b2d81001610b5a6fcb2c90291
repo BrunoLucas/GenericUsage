@@ -1,0 +1,29 @@
+package com.projeto.hugo.dao;
+
+public class CadastroDao implements CRUD{
+
+	@Override
+	public void salvar(Object objeto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Object obter(Long codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean editar(Object objeto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean deletar(Object objeto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

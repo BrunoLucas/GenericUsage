@@ -1,0 +1,5 @@
+package com.projeto.hugo.dto;
+
+public class Npc {
+
+}

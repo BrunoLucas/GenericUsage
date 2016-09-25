@@ -1,0 +1,8 @@
+package com.projeto.hugo.dto;
+
+public class Pokemon {
+
+	private Long codigo;
+	private String nome;
+	private Tipo tipo;
+}

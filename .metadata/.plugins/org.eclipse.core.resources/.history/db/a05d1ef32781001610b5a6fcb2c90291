@@ -1,0 +1,10 @@
+package com.projeto.hugo.dto;
+
+public class Pessoa {
+
+	private Long codigo;
+	private String nome;
+	private String email;
+	
+	
+}

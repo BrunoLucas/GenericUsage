@@ -1,0 +1,14 @@
+package com.projeto.hugo.dto;
+
+import java.time.LocalDate;
+
+public class Treinador extends Pessoa{
+
+	private Time time;
+	private LocalDate dataInicio;
+	private Pokemon pokemonPreferido;
+	
+	
+	
+	
+}

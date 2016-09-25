@@ -1,0 +1,49 @@
+package com.projeto.projetotestg.dto;
+
+import com.projeto.projetotestg.facade.IExibicao;
+
+public class Pokemon implements IExibicao {
+
+	private Long codigo;
+	private String nome;
+	private Tipo tipo;
+	private Long nivel;
+	private Long CP;
+	private Localizacao localizacao;
+
+	public Long getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Long codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Tipo getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(Tipo tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public void apresentar() {
+		System.out.println(this.toString());
+	}
+
+	@Override
+	public String toString() {
+		return "Pokemon [codigo=" + codigo + ", nome=" + nome + ", tipo=" + tipo + ", nivel=" + nivel + ", CP=" + CP
+				+ ", localizacao=" + localizacao + "]";
+	}
+
+}

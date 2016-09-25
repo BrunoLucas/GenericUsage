@@ -1,0 +1,9 @@
+package com.projeto.hugo.facade;
+
+import com.projeto.hugo.dto.Localizacao;
+
+public interface IExibicao {
+
+	public void apresentar(String mensagem);
+
+}

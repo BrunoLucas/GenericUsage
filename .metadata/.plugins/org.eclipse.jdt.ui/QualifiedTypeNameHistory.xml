@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.facade.IExibicao"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Colecionador"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Localizacao"/>
+<fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Pokemon"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Tipo"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Item"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dao.CRUD"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dto.Pessoa"/>
+<fullyQualifiedTypeName name="com.projeto.hugo.dao.CadastroDao"/>
+</qualifiedTypeNameHistroy>

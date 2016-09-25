@@ -1,0 +1,5 @@
+package com.projeto.hugo.facade;
+
+public interface IExibicao {
+
+}

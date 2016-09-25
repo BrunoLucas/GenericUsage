@@ -1,0 +1,95 @@
+package com.projeto.hugo.main.test;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.projeto.hugo.dto.Colecionador;
+import com.projeto.hugo.dto.Item;
+import com.projeto.hugo.dto.Localizacao;
+import com.projeto.hugo.dto.Pokemon;
+import com.projeto.hugo.dto.Tipo;
+import com.projeto.hugo.dto.Treinador;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+
+		Colecionador colecionador = new Colecionador();
+		colecionador.setCodigo(1L);
+		colecionador.setNome("Hugo Cunha");
+		colecionador.setEmail("hugo.cunha@gmail.com");
+		colecionador.setDataInicio(LocalDate.now());
+		colecionador.setLocalizacaoAtual(new Localizacao(123L, 123L));
+		colecionador.setNivel(1L);
+		colecionador.setTipoPreferido(Tipo.AGUA);
+		colecionador.setObjetoCaca("Celular");
+		
+		Pokemon pikachu = new Pokemon();
+		pikachu.setCodigo(1L);
+		pikachu.setNome("Pikachu");
+		pikachu.setTipo(Tipo.ELETRICO);
+	
+		List<Pokemon> listaPokemon = new ArrayList<Pokemon>();
+		listaPokemon.add(pikachu);
+		colecionador.setPokemonCapturados(listaPokemon);
+		colecionador.setPokemonPreferido(pikachu);
+		colecionador.setPontosExperiencia(1L);
+		
+		
+	}
+	
+	
+	private void popularColecionador(){
+		Colecionador colecionador = new Colecionador();
+		colecionador.setCodigo(1L);
+		colecionador.setNome("Hugo Cunha");
+		colecionador.setEmail("hugo.cunha@gmail.com");
+		colecionador.setDataInicio(LocalDate.now());
+		colecionador.setLocalizacaoAtual(new Localizacao(123L, 123L));
+		colecionador.setNivel(1L);
+		colecionador.setTipoPreferido(Tipo.AGUA);
+		colecionador.setObjetoCaca("Celular");
+		
+		Pokemon pikachu = new Pokemon();
+		pikachu.setCodigo(1L);
+		pikachu.setNome("Pikachu");
+		pikachu.setTipo(Tipo.ELETRICO);
+	
+		List<Pokemon> listaPokemon = new ArrayList<Pokemon>();
+		listaPokemon.add(pikachu);
+		colecionador.setPokemonCapturados(listaPokemon);
+		colecionador.setPokemonPreferido(pikachu);
+		colecionador.setPontosExperiencia(1L);
+	}
+	
+	private void popularTreinador(){
+		Treinador treinador = new Treinador();
+		treinador.setCodigo(1L);
+		treinador.setNome("Hugo Cunha");
+		treinador.setEmail("hugo.cunha@gmail.com");
+		treinador.setDataInicio(LocalDate.now());
+		treinador.setLocalizacaoAtual(new Localizacao(123L, 123L));
+		treinador.setNivel(1L);
+		
+		List<Item> listaItens = new ArrayList<Item>();
+		Item pokebola = new Item();
+		pokebola.setCodigo(1);
+		pokebola.setNome("Pokébola");
+		listaItens.add(pokebola);
+		
+		treinador.setItensObtidos(listaItens);
+		
+		Pokemon charmander = new Pokemon();
+		charmander.setCodigo(1L);
+		charmander.setNome("Charmander");
+		charmander.setTipo(Tipo.FOGO);
+	
+		List<Pokemon> listaPokemon = new ArrayList<Pokemon>();
+		listaPokemon.add(charmander);
+		treinador.setPokemonCapturados(listaPokemon);
+		treinador.setPokemonPreferido(charmander);
+		treinador.setPontosExperiencia(1L);
+	}
+
+}

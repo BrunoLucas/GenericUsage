@@ -1,0 +1,49 @@
+package com.projeto.hugo.dto;
+
+import java.io.Serializable;
+
+import com.projeto.hugo.facade.IExibicao;
+
+public class Pessoa implements Serializable, IExibicao {
+
+	private static final long serialVersionUID = -4335313338176155334L;
+
+	private Long codigo;
+	private String nome;
+	private String email;
+	private Long pontosExperiencia;
+	private Long nivel;
+	private Localizacao localizacaoAtual;
+	
+	
+	public Long getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Long codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	@Override
+	public void apresentar(String mensagem) {
+		System.out.println(mensagem);
+	}
+
+
+}

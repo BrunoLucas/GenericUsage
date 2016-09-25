@@ -1,0 +1,53 @@
+package com.projeto.projetotestg.dto;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.List;
+
+public class Colecionador extends Pessoa implements Serializable{
+	
+	
+	private static final long serialVersionUID = 1991383998138780757L;
+	
+	private LocalDate dataInicio;
+	private Pokemon pokemonPreferido;
+	private Tipo tipoPreferido;
+	private String objetoCaca;
+	private List<Pokemon> pokemonCapturados;
+	
+	
+	public LocalDate getDataInicio() {
+		return dataInicio;
+	}
+	public void setDataInicio(LocalDate dataInicio) {
+		this.dataInicio = dataInicio;
+	}
+	public Pokemon getPokemonPreferido() {
+		return pokemonPreferido;
+	}
+	public void setPokemonPreferido(Pokemon pokemonPreferido) {
+		this.pokemonPreferido = pokemonPreferido;
+	}
+	public Tipo getTipoPreferido() {
+		return tipoPreferido;
+	}
+	public void setTipoPreferido(Tipo tipoPreferido) {
+		this.tipoPreferido = tipoPreferido;
+	}
+	public List<Pokemon> getPokemonCapturados() {
+		return pokemonCapturados;
+	}
+	public void setPokemonCapturados(List<Pokemon> pokemonCapturados) {
+		this.pokemonCapturados = pokemonCapturados;
+	}
+	public String getObjetoCaca() {
+		return objetoCaca;
+	}
+	public void setObjetoCaca(String objetoCaca) {
+		this.objetoCaca = objetoCaca;
+	}
+
+	
+	
+	
+}

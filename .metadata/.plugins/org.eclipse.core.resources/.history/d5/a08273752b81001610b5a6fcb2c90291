@@ -1,0 +1,5 @@
+package com.projeto.hugo.dao;
+
+public class CadastroDao {
+
+}
